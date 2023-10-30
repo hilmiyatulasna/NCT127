@@ -308,9 +308,9 @@ p {
 /* End Hero Section */
 
 
-/* Services Section */
+/* quotes Section */
 
-#services .services {
+#quotes .quotes {
     flex-direction: column;
     text-align: center;
     max-width: 1500px;
@@ -318,12 +318,12 @@ p {
     padding: 100px 0;
 }
 
-#services .service-top {
+#quotes .quotes-top {
     max-width: 500px;
     margin: 0 auto;
 }
 
-#services .service-bottom {
+#quotes .quotes-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,7 +331,7 @@ p {
     margin-top: 50px;
 }
 
-#services .service-item {
+#quotes .quotes-item {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -347,7 +347,7 @@ p {
     overflow: hidden;
 }
 
-#services .service-item::after {
+#quotes .quotes-item::after {
     content: '';
     position: absolute;
     left: 0;
@@ -359,26 +359,26 @@ p {
     z-index: -1;
 }
 
-#services .service-bottom .icon {
+#quotes .quotes-bottom .icon {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
 }
 
-#services .service-item h2 {
+#quotes .quotes-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
-#services .service-item p {
+#quotes .quotes-item p {
     color: white;
     text-align: left;
 }
 
 
-/* End Services Section */
+/* End quotes Section */
 
 
 /* Projects section */
